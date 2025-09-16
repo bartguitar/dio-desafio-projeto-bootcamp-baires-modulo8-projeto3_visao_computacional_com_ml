@@ -1,10 +1,8 @@
 # dio-desafio-projeto-bootcamp-baires-modulo8-projeto3_visao_computacional_com_ml
 Desafio de Projeto 3 - Módulo 8 - Testes com Langchain + Azure GPT
-Com certeza! Aqui está um modelo de README.md detalhado e bem estruturado para o seu projeto no GitHub, seguindo todas as instruções do desafio.
-
-Ele é claro, profissional e fácil de seguir para qualquer pessoa que acesse o seu repositório.
 
 Agente de IA para Geração de Testes Unitários com LangChain e Azure OpenAI
+
 Este projeto demonstra a criação de um agente de inteligência artificial em Python capaz de gerar testes unitários automaticamente usando as bibliotecas LangChain e pytest, com o poder do modelo de linguagem do Azure OpenAI Service.
 
 O agente foi projetado para ler um arquivo Python e, de forma autônoma, gerar um arquivo de teste funcional (test_<nome_do_arquivo>.py) que cobre casos de sucesso, falha e casos de borda.
@@ -89,4 +87,3 @@ def test_divisao():
 def test_divisao_por_zero():
     with pytest.raises(ValueError, match="Divisor não pode ser zero."):
         divisao(10, 0)
-A saída pode variar ligeiramente devido à natureza dos modelos de linguagem.
